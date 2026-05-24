@@ -846,18 +846,18 @@ if (!empty($_POST))
   <footer>
     <div class="contact-info">
       <div class="contact-info-column">
-        <p><img src="./static/mail.svg" alt="mail" />
+        <p>
           <span class="contact-field">Email:</span><a href="mailto:lunardo@example.com"> lunardo@example.com</a>.
         </p>
-        <p><img src="./static/phone.svg" alt="phone" />
+        <p>
           <span class="contact-field">Phone:</span><a href="tel:012-345-6789"> +012-345-6789</a>.
         </p>
       </div>
       <div class="contact-info-column">
-        <p><img src="./static/location.svg" alt="location" />
+        <p>
           <span class="contact-field">Address:</span> 1 Lunar Street, VIC, Melbourne.
         </p>
-        <p><img src="./static/plane.svg" alt="github" />
+        <p>
           <span class="contact-field">GitHub:</span><a href="#"> Go-to-GitHub</a>.
         </p>
       </div>
