@@ -2,7 +2,7 @@
 
 $codes = array("STA", "STP", "STC", "FCA", "FCP", "FCC");
 
-$GLOBALS = [
+$CINEMA_CONFIG = [
   "DESCRISPTION" => [
     "STA" => "Standard - Adult",
     "STP" => "Standard - Concession",
@@ -106,30 +106,35 @@ function debugModule()
 
 function movieTitle(&$id)
 {
-  $id = $GLOBALS['TITLE_ARRAY'][$id];
+  global $CINEMA_CONFIG;
+  $id = $CINEMA_CONFIG['TITLE_ARRAY'][$id];
 }
 
 function movieHour(&$hour)
 {
-  $hour = $GLOBALS['TIME_CODE'][$hour];
+  global $CINEMA_CONFIG;
+  $hour = $CINEMA_CONFIG['TIME_CODE'][$hour];
 }
 
 function movieDes($seat_code)
 {
-  return $GLOBALS['DESCRISPTION'][$seat_code];
+  global $CINEMA_CONFIG;
+  return $CINEMA_CONFIG['DESCRISPTION'][$seat_code];
 }
 
 function movieUnitPrice($seat_code, $day, $time)
 {
+  global $CINEMA_CONFIG;
   $unit_price = 00.00;
   if (($day == 'MON') || ($day == 'WED') || (($day == 'TUE') && ($time == '12:00pm')) || (($day == 'WED') && ($time == '12:00pm')) || (($day == 'THU') && ($time == '12:00pm')) || (($day == 'FRI') && ($time == '12:00pm'))
   ) {
-    $unit_price = floatval($GLOBALS['PRICES_DISCOUNT'][$seat_code]);
+    $unit_price = floatval($CINEMA_CONFIG['PRICES_DISCOUNT'][$seat_code]);
   } else {
-    $unit_price = floatval($GLOBALS['PRICES_NORMAL'][$seat_code]);
+    $unit_price = floatval($CINEMA_CONFIG['PRICES_NORMAL'][$seat_code]);
   }
   return number_format($unit_price, 2);
 }
+
 
 
 function validateName($name, &$nameError, &$errorFound)

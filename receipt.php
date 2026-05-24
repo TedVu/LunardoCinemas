@@ -154,11 +154,11 @@ if (!empty($_SESSION['cart'])) {
 </html>
 <?php
 
-$GLOBALS['formatSeat'] = $_SESSION['cart']['seats'];
+$formatSeat = $_SESSION['cart']['seats'];
 
-foreach ($GLOBALS['formatSeat'] as $code => $qty) {
+foreach ($formatSeat as $code => $qty) {
     if ($qty == '') {
-        $GLOBALS['formatSeat'][$code] = 0;
+        $formatSeat[$code] = 0;
     }
 }
 
@@ -168,7 +168,7 @@ $cells = array_merge(
     (array) $email,
     (array) $mobile,
     $_SESSION['cart']['movie'],
-    $GLOBALS['formatSeat'],
+    $formatSeat,
     (array) ('$' . number_format($subtotal, 2))
 );
 $cart = $_SESSION['cart'];
