@@ -302,7 +302,6 @@ if (!empty($_POST))
               </div>
               <div class="movie-box-column-2">
                 <div class="movie-info-list">
-                  <div class="movie-rating"><img src="./static/classification-m.svg" alt="m-movie-rating"></div>
                   <div class="movie-info disabled-text"><span class="movie-date">Mon</span><span class="movie-time-text">N/A</span></div>
                   <div class="movie-info disabled-text"><span class="movie-date">Tue</span><span class="movie-time-text">N/A</span></div>
                   <div class="movie-info"><span class="movie-date">Wed</span><span class="movie-time-text">09:00PM</span></div>
@@ -328,7 +327,6 @@ if (!empty($_POST))
               </div>
               <div class="movie-box-column-2">
                 <div class="movie-info-list">
-                  <div class="movie-rating"><img src="./static/classification-ma.svg" alt="ma-movie-rating"></div>
                   <div class="movie-info"><span class="movie-date">Mon</span><span class="movie-time-text">06:00PM</span></div>
                   <div class="movie-info"><span class="movie-date">Tue</span><span class="movie-time-text">06:00PM</span></div>
                   <div class="movie-info disabled-text"><span class="movie-date">Wed</span><span class="movie-time-text">N/A</span></div>
@@ -354,7 +352,6 @@ if (!empty($_POST))
               </div>
               <div class="movie-box-column-2">
                 <div class="movie-info-list">
-                  <div class="movie-rating"><img src="./static/classification-pg.svg" alt="pg-movie-rating"></div>
                   <div class="movie-info"><span class="movie-date">Mon</span><span class="movie-time-text">12:00PM</span></div>
                   <div class="movie-info"><span class="movie-date">Tue</span><span class="movie-time-text">12:00PM</span></div>
                   <div class="movie-info"><span class="movie-date">Wed</span><span class="movie-time-text">06:00PM</span></div>
@@ -380,7 +377,6 @@ if (!empty($_POST))
               </div>
               <div class="movie-box-column-2">
                 <div class="movie-info-list">
-                  <div class="movie-rating"><img src="./static/classification-r.svg" alt="r-movie-rating"></div>
                   <div class="movie-info disabled-text"><span class="movie-date">Mon</span><span class="movie-time-text">N/A</span></div>
                   <div class="movie-info disabled-text"><span class="movie-date">Tue</span><span class="movie-time-text">N/A</span></div>
                   <div class="movie-info"><span class="movie-date">Wed</span><span class="movie-time-text">12:00PM</span></div>
@@ -399,7 +395,7 @@ if (!empty($_POST))
           <div class="synopsis-box" id='synopsisACT'>
             <a class="anchor" id="synopsisACT-anchor"></a>
             <div>
-              <h3><span>Avengers: Endgame</span><img src="./static/classification-m.svg" alt="m-movie-rating"></h3>
+              <h3><span>Avengers: Endgame</span></h3>
             </div>
             <div class="synopsis-box-row">
               <div class="synopsis-box-column-1">
@@ -468,7 +464,7 @@ if (!empty($_POST))
           <div class="synopsis-box" id='synopsisRMC'>
             <a class="anchor" id="synopsisRMC-anchor"></a>
             <div>
-              <h3><span>Top End Wedding</span><img src="./static/classification-ma.svg" alt="ma-movie-rating"></h3>
+              <h3><span>Top End Wedding</span></h3>
             </div>
             <div class="synopsis-box-row">
               <div class="synopsis-box-column-1">
@@ -533,7 +529,7 @@ if (!empty($_POST))
           <div class="synopsis-box" id='synopsisANM'>
             <a class="anchor" id="synopsisANM-anchor"></a>
             <div>
-              <h3><span>Dumbo</span><img src="./static/classification-pg.svg" alt="pg-movie-rating"></h3>
+              <h3><span>Dumbo</span></h3>
             </div>
             <div class="synopsis-box-row">
               <div class="synopsis-box-column-1">
@@ -600,7 +596,7 @@ if (!empty($_POST))
           <div class="synopsis-box" id='synopsisAHF'>
             <a class="anchor" id="synopsisAHF-anchor"></a>
             <div>
-              <h3><span>The Happy Prince</span><img src="./static/classification-r.svg" alt="r-movie-rating"></h3>
+              <h3><span>The Happy Prince</span></h3>
             </div>
             <div class="synopsis-box-row">
               <div class="synopsis-box-column-1">
