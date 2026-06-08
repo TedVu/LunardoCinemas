@@ -104,8 +104,6 @@ if (!empty($_POST))
   <script src='./static/updateSynopsisScript.js'></script>
   <script src='./static/updateBookingFormScript.js'></script>
   <script src='./static/submitBookingForm.js'></script>
-
-  <link rel="icon" href="./static/lunardo_logo_icon.png" />
 </head>
 
 <body>
