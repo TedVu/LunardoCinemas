@@ -4,7 +4,7 @@ RMIT - Further Web Programming Semester 2 2019
 
 © Kevin Vu Ted Vu 2019. Disclaimer: This repo is an asset of Kevin Vu and Ted Vu and is being developed as part of a School of Science Further Web Programming course at RMIT University in Melbourne, Australia. Any plagiarism act will be reported.
 
-- Link: http://134.199.160.36/ 
+- Link: https://www.lunardocinema.xyz/ 
 
 ## Team member
 - Kevin Vu
